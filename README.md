@@ -1,0 +1,20 @@
+#  Digital hardware-accelerated timecode generator for scratch control
+**Authors:**
++ **Gab Grant** – [LinkedIn](https://www.linkedin.com/in/gab-grant/) • [School GitHub](https://github.com/gabgrant) • [Personal GitHub](https://github.com/tuxTheHappyPenguin) • [GitLab](https://gitlab.com/tuxTheHappyPenguin)
++ **દિયા હિરેન શાહ** – [LinkedIn](https://www.linkedin.com/in/diya-shah-498717247/)
+
+Let's break down the title of this project a bit:
+
++ **Timecode** is a mathematical representation of the position of the needle on a record in a DVS (Digital Vinyl System). Timecode-bearing vinyl records are meant to give DJs the ability to use traditional hardware to control audio whilst also exploiting the flexibility of mixing software, such as [MIXXX](https://mixxx.org/features/), to quickly switch between tracks without having to carry an entire vinyl library.
+
++ **Hardware acceleration** is the idea of handing certain computational functions to specialised hardware rather than running them on a CPU. Whilst being more costly in terms of implementation, it can make one or more processes much more efficient by reducing task execution time and increasing parallelism. Since custom circuits are costly on a small scale, we are employing an FPGA (Field Programmable Gate Array) device to develop this project, letting us test and improve our custom circuit with the same customisable device over and over again.
+
++ **Scratching** is the art of creating percussive rhythms by rapidly moving a vinyl record back and forth on a turntable. This art has been practised and developed extensively by DJs around the world since the very beginning of hip-hop. Advanced live remixing techniques such as beat juggling, word play, tone play and hydroplaning are also part of scratching, and can all be achieved with DVS just as easily as with traditional hardware.
+
++ **Putting it all together**, this FPGA system generates timecode based on mechanical input from a motorised rotating platter which will server as a substitute for DVS, effectively acting as a digital drop-in replacement for traditional turntables which have become increasingly expensive due to generally low demand after the coming of CD players and later on streaming services. It takes the digitalisation of DJ systems one step further by completely replacing the need for a vinyl record and turntable and replaces them with an integrated system which responds
+
+This project is currently in a **very early developmental stage**. Updates will be posted in this README file as the project progresses. **Alpha release planned for late August**, so stay tuned!
+
+![Scratching](https://upload.wikimedia.org/wikipedia/commons/2/2b/Stylewarz5_Kopie.jpg "Scratching")
+
+<small>Mbdortmund, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons</small>
