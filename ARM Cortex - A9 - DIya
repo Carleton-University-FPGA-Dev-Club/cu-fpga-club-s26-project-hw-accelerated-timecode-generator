@@ -1,1 +1,22 @@
 Calculations for the ARM Cortex-A9
+
+The standard DJ turntables operate at 33⅓ RPM, and some prefer 45 RPM. 
+
+1 rotation is 200 transitions? #yet to answer 
+
+200 transitions/rotation x 33rpm = 6600 transitions/min
+6600/60 = 110 transitions/sec
+33 RPM is 110 transitions/sec
+
+200 transitions/rotation x 45rpm = 9000 transitions/min
+9000/60 = 150 transitions/sec
+45rpm is 150 transitions/sec
+
+signal changes 1⇔0
+
+every 1/110 = 0.00909 sec ~ 9.09 ms
+
+At 22 Khz, the ticks, toggle out will be:
+
+33 RPM, 22,000/110 - 200 ticks
+45 RPM, 22,000/150 = 146.7 ~ 147 ticks 
